@@ -14,6 +14,7 @@
 
 body {
   background-color: #F0F2F6;
+  font-size: 93.75%;
 }
 
 .full {
@@ -32,7 +33,7 @@ body {
 input {
   border: none;
   border: 3px solid #fff;
-  font-size: 1.2rem;
+  font-size: .9rem;
   padding: 1rem;
   border-radius: 30px;
 }
@@ -49,6 +50,7 @@ input:focus {
 .card img {
   border-radius: 30px 30px 0 0;
   width: 100%;
+  margin-bottom: -5px;
 }
 
 .hidden {
@@ -61,7 +63,7 @@ input:focus {
 
 .botside {
   padding: 2rem 1rem;
-  margin-top: -4px;
+  margin-top: -5px;
   width: 100%;
   border-radius: 0 0 30px 30px;
   background-color: #FFF;
@@ -106,4 +108,10 @@ span {
 
 .logo {
   max-width: 48px;
+}
+
+@media screen and (min-width: 600px) {
+  input {
+    font-size: 1.2rem;
+  }
 }

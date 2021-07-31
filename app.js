@@ -31,5 +31,5 @@ const GetAndSetWeather = async (inputValue)=> {
 }
 
 const cityName = localStorage.getItem('cityName')
-cityName ? GetAndSetWeather(cityName) : cityName = ''
+cityName ? GetAndSetWeather(cityName) : ''
 
