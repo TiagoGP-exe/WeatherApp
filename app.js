@@ -30,4 +30,6 @@ const GetAndSetWeather = async (inputValue)=> {
   card.classList.remove('hidden')
 }
 
-GetAndSetWeather(localStorage.getItem('cityName'))
+const cityName = localStorage.getItem('cityName')
+cityName ? GetAndSetWeather(cityName) : cityName = ''
+
