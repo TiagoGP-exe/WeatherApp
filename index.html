@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./src/logo.svg" type="image/x-svg">
+  <title>WeatherApp</title>
+</head>
+
+<body>
+  <form data-js="card-weather" class="full flex">
+    <input type="text" name="search" placeholder="Pesquise o nome de uma cidade" autocomplete="off" />
+    <div data-js="card" class="card flex hidden">
+      <div class="topside">
+        <img data-js="weather-img" src="./src/night.png" alt="ilustration" autocomplete="off">
+      </div>
+      <div class="botside flex">
+        <img data-js="weather-icon" src="./src/icons/41.svg" />
+        <h1 data-js="city-name">City Name</h1>
+        <p data-js="city-weather">Weather</p>
+
+        <div class="temperature">
+          <span data-js="city-temperature">40</span>
+          <span class="grau">º</span>
+        </div>
+      </div>
+    </div>
+    <img class="logo" src="./src/logo.svg" alt="logo">
+  </form>
+  <script src="./weather.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
