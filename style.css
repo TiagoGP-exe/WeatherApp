@@ -45,7 +45,7 @@ input:focus {
 }
 
 .card, input {
-  width: min(450px, 90%);
+  width: min(450px, 80%);
   min-width: 280px;
 }
 
@@ -101,7 +101,7 @@ span {
 
 .grau {
   position: relative;
-  right: 1rem;
+  right: .8gi rem;
   letter-spacing: -20px;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: white;
